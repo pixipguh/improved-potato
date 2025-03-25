@@ -1,0 +1,322 @@
+
+				/*font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+:root {
+    --vc-font: "Continuum Bold", "Comfortaa", sans-serif;
+}
+
+* {
+    font-family: var(--vc-font) !important;
+}
+
+
+
+
+
+
+										/*stuff*/
+
+				
+
+
+									/*User Info*/
+.panels_c48ade {
+    background-color: #181818;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 0px;
+    border-radius: 0px;
+    border-top: 1px solid #282828;
+    z-index: 99;
+    overflow: hidden scroll;
+    padding-right: 5px;
+}
+
+.panels_c48ade::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+}
+
+.panels_c48ade::-webkit-scrollbar-corner {
+    background-color: tranparent;
+}
+
+.panels_c48ade::-webkit-scrollbar-thumb,
+.panels_c48ade::-webkit-scrollbar-track {
+    border: 4px solid transparent;
+    background-clip: padding-box;
+    border-radius: 8px;
+}
+
+.panels_c48ade > .container__37e49 {
+    z-index: 99;
+    position: absolute;
+    top: 5px;
+    height: 35px;
+    width: 225px;
+    right: 5px;
+    border-radius: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2px;
+    color: #fff !important;
+}
+
+									/*Call Buttons*/
+.panels_c48ade > .wrapper_e131a9 > .container_e131a9 {
+    margin-top: -14px;
+    background-color: #181818;
+}
+
+									/*Channel List*/
+.sidebar_c48ade,
+.container__2637a {
+    background: var(--background-primary) !important;
+}
+
+.wrapper__2ea32:hover .wrapper__2ea32 {
+    background: #1a1a1a;
+}
+
+.wrapper__2ea32:active .wrapper__2ea32 {
+    background: var(--background-primary);
+}
+
+.wrapper__2ea32 {
+    border-radius: 6px;
+}
+
+									/*Chat Area*/
+.chat_f75fb0 {
+    background: linear-gradient(180deg, var(--sc-gradient-color), var(--background-primary) 15%);
+    border-radius: 8px;
+}
+
+.themed__9293f,
+.chatContent_f75fb0 {
+    background: transparent !important;
+}
+
+.children__9293f:after {
+    display: none;
+}
+
+									/*Members*/
+.membersWrap_c8ffbb {
+    height: 100%;
+}
+
+.members_c8ffbb {
+    height: calc(100% - 90px);
+    background: var(--background-primary);
+    border-bottom: 1px #282828 solid;
+}
+
+.content_f75fb0 > .membersWrap_c8ffbb {
+    background: var(--background-secondary);
+}
+
+									/*Activity Area*/
+.activityPanel_c48ade {
+    position: fixed;
+    bottom: 90px;
+    background-color: #181818;
+    width: 225px;
+}
+
+									/*Text Area*/
+.button_aa63ab[disabled] > .innerButton_aa63ab > .buttonChild_aa63ab,
+.buttonChild_aa63ab {
+    color: var(--interactive-normal);
+}
+
+.theme-dark .button_aa63ab:focus-within .activeButtonChild_aa63ab,
+.theme-dark .button_aa63ab:focus .activeButtonChild_aa63ab,
+.theme-dark .button_aa63ab:hover .activeButtonChild_aa63ab {
+    color: var(--background-accent);
+}
+
+.base_b88801 {
+    bottom: 2px;
+}
+
+.form_f75fb0 {
+    background-color: #181818;
+    min-height: 90px;
+    border-top: 1px solid #282828;
+    margin: 0;
+}
+
+.scrollableContainer__74017 {
+    border-radius: 23px;
+}
+
+.textAreaSlate__74017 {
+    height: 44px !important;
+}
+
+.channelTextArea_f75fb0 {
+    top: 20px;
+    background-color: var(--channeltextarea-background);
+    border-radius: 500px !important;
+}
+
+.channelAppLauncher_e6e74f {
+    margin-right: var(--spacing-16);
+    margin-bottom: 24px;
+    top: 20px;
+}
+
+.wrapper__44df5 {
+    margin-top: 14px;
+}
+
+.stackedBars__74017 {
+    margin-top: -45px;
+    margin-bottom: 25px;
+    height: 20px;
+}
+
+.attachButtonInner__0923f path {
+    fill: var(--background-accent);
+}
+
+.attachButton__0923f:hover .attachButtonPlus__0923f {
+    fill: #323232;
+}
+
+.button__24af7:hover,
+.active__24af7 .buttonWrapper__24af7,
+.buttonWrapper__24af7:hover {
+    color: #323232;
+}
+
+.button__67645.enabled__67645:hover {
+    border-radius: 32px;
+}
+
+.replyBar__841c8,
+.threadSuggestionBar__841c8,
+.stackedBars__74017 {
+    background: var(--channeltextarea-background);
+}
+
+.replyBar__841c8 {
+    margin-top: 0;
+}
+
+.actions__841c8 {
+    height: 40px;
+}
+
+.theme-dark .autocomplete__13533 {
+    background-color: var(--background-secondary);
+}
+
+.theme-dark .form_f75fb0:before {
+    background: linear-gradient(180deg, rgba(54, 57, 63, 0) 0, #181818);
+}
+
+.inlineCode_ada32f,
+.optionPill__1464f {
+    color: #fff;
+}
+
+									/*Header*/
+.toolbar__9293f {
+    margin-right: 240px;
+}
+
+.title_f75fb0 {
+    z-index: 1;
+}
+
+									/*Search*/
+.theme-dark .container__55c99 {
+    background-color: var(--background-floating);
+}
+
+.option__56fec {
+    width: 311.5px;
+}
+
+.option__56fec:hover {
+    width: 280px;
+}
+
+/*   Tiny Search-bar   */
+.toolbar__9293f .search__49676 {
+    order: -1;
+}
+
+.toolbar__9293f .search__49676 .iconContainer_fea832 {
+    bottom: 4px;
+}
+
+.toolbar__9293f .search__49676 .iconContainer_fea832 .icon_fea832 {
+    transition: all 0.6s ease;
+}
+
+.toolbar__9293f .search__49676 .search__97492:not(.open__97492) .searchBar__97492 {
+    width: 28px;
+    transition: all 0.6s ease-in-out;
+    background: none;
+}
+
+.toolbar__9293f .search__49676 .search__97492:not(.open__97492) .searchBar__97492 .icon_fea832 {
+    color: var(--interactive-normal);
+    height: 23px;
+    width: 23px;
+    margin-top: 1.76px;
+}
+
+.toolbar__9293f .search__49676 .search__97492.open__97492 .searchBar__97492 {
+    width: 240px;
+    background: var(--background-tertiary);
+    transition: all 0.6s ease-in-out;
+}
+
+.toolbar__9293f .search__49676 .search__97492.open__97492 .searchBar__97492 .icon_fea832 {
+    height: 16px;
+    width: 16px;
+    top: 4px;
+}
+
+.iconLayout_fea832 {
+    cursor: pointer;
+}
+
+									/*Create A Server and Public Servers*/
+.lookBlank__201d5 {
+    color: #fff;
+}
+
+									/*Settings*/
+.sidebarRegion__23e6b {
+    flex: 0;
+}
+
+.contentColumnDefault__23e6b,
+.contentColumnWide__23e6b {
+    margin: 0 auto;
+}
+
+.accountProfileCard__1fed1 {
+    max-width: none;
+}
+
+.notificationSettings-1U0JsJ {
+    max-width: 45%;
+}
+
+.theme-dark .paymentPane__01014,
+.theme-dark .paginator__01014,
+.theme-dark .payment_e9cb00,
+.theme-dark .codeRedemptionRedirect-3SBiCp {
+    background-color: var(--background-secondary);
+}
+
+.bioTextArea__6a919 {
+    background-color: var(--channeltextarea-background);
+}
